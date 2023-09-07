@@ -1,6 +1,9 @@
 import React from 'react'
 import CountryLookup from './CountryLookup'
 
+
+//<CountryLookup /> component is client
+//this  Footer  is included in layout.jsx, will appear on every page
 export default function Footer() {
   return (
     <footer className='absolute bottom-0 text-sm text-gray-500 bg-[#f2f2f2] w-full'> 
