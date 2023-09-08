@@ -10,7 +10,7 @@ const searchParams = useSearchParams();
 const searchTerm = searchParams.get('searchTerm');
 
 function selectTab(tab) {
-  router.push(`/search/${tab === 'Images' ? 'Image' : 'web'}?searchTerm={searchTerm}`);
+  router.push(`/search/${tab === 'Images' ? 'Image' : 'web'}?searchTerm=${searchTerm}`);
 }
 
   return (
